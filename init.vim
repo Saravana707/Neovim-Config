@@ -6,8 +6,9 @@
 :set smarttab
 :set softtabstop=4
 :set mouse=a
-set completeopt-=preview
-set completeopt=menuone,noinsert,noselect
+:set completeopt-=preview
+:set completeopt=menuone,noinsert,noselect
+
 call plug#begin()
 
 Plug 'http://github.com/tpope/vim-surround' " Surrounding ysw)
